@@ -82,7 +82,7 @@ function setup()
   fruit_con = new Link(rope,fruit);
   fruit_condois = new Link(cordadois,fruit);
   fruit_contres = new Link(cordatres,fruit);
-coelho= createSprite(420,canH-80,100,100)
+coelho= createSprite(canW/2,canH-80,100,100)
 
 coelho.scale=0.2
 coelhopiscando.frameDelay= 10
@@ -102,7 +102,7 @@ botaodois.position(330,35)
 botaodois.size(50,50)
 botaodois.mouseClicked(dropdois)
 botaotres= createImg("cut_btn.png")
-botaotres.position(360,200)
+botaotres.position(340,200)
 botaotres.size(50,50)
 botaotres.mouseClicked(droptres)
   rectMode(CENTER);
@@ -115,7 +115,7 @@ botaotres.mouseClicked(droptres)
   balaodear.mouseClicked(Balaodear)
 
   botaodemute = createImg("mute.png")
-  botaodemute.position(450,20)
+  botaodemute.position(40,20)
   botaodemute.size(50,50)
   botaodemute.mouseClicked(Mute)
 }
